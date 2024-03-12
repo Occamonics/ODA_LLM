@@ -1,0 +1,13 @@
+exportedRestServices:
+- endpoint: "https://api.cohere.ai/v1/generate"
+  name: "CohereLLM"
+  type: "LLM"
+  authType: "bearerToken"
+  restServiceMethods:
+  - restServiceMethodType: "POST"
+    contentType: "application/json"
+    statusCode: 200
+    methodIncrementId: 0
+    requestBody: "{\n    \"model\": \"command\",\n    \"prompt\": \"Generate a fact about our milky way\",\n    \"max_tokens\": 300,\n    \"temperature\": 0.9,\n    \"k\": 0,\n    \"stop_sequences\": [],\n    \"return_likelihoods\": \"NONE\"\n}"
+    mockResponsePayload: "{\n    \"meta\": {\n        \"api_version\": {\n            \"version\": \"1\"\n        }\n    },\n    \"generations\": [\n        {\n            \"id\": \"6c92c66b-36d2-41f7-a08e-363fa90a40f6\",\n            \"text\": \" The largest black hole in the Milky Way is called Sagittarius A*, which is located at the center of our galaxy. It has a mass of approximately 4.3 million times that of the Sun.\"\n        }\n    ],\n    \"id\": \"72f07ada-a5b4-4e69-bd5b-5f1e98cd5784\",\n    \"prompt\": \"Generate a fact about our milky way\"\n}"
+    restServiceParams: []
