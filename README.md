@@ -101,17 +101,17 @@ This is the `response` format
 ```
 
 ---
-1. Expand `Settings`, then select `API Services`.
+1. Navigate to ODA then expand `Settings`, then select `API Services`.
 2. Click `LLM Services` tab.
-3. Click the dropdown `Import LLM Services`.
-4. Navigate to `/artifacts/LLMService-CohereLLM.yaml` and open it.
+3. Click the `Import LLM Services` button.
+4. In this git repository navigate to `/artifacts/LLMService-CohereLLM.yaml` and open it.
 5. Using the `API token` from **Task 1** fill the `Bearer Token` of the service we've just imported.
 6. Test the request and make sure you have `200 Success` status code.
 
 ## Task 3: Import the Mock REST Service
 1. Expand `Settings`, then select `API Services`.
 2. Click `REST Services` tab.
-3. Click the dropdown `Import REST Services`.
+3. Click the dropdown `More` then `Import REST Services`.
 4. Navigate to `/artifacts/RESTService-Tutorial_OpportunityDetails.yaml` and open it.
 
 ## Task 4: Import the Starter Skill
